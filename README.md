@@ -1,2 +1,3 @@
 # LeetCode-Solutions
-:octocat: LeetCode solutions in JavaScript
+
+My https://leetcode.com/ solutions in JavaScript
