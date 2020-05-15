@@ -1,4 +1,4 @@
-![](https://github.com/r1/LeetCode-Solutions/tree/master/img)
+![](https://github.com/r1/LeetCode-Solutions/blob/master/img/logo.png)
 
 # LeetCode Solutions
 
