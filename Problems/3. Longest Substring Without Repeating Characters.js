@@ -1,7 +1,3 @@
-/**
- * @param {string} s
- * @return {number}
- */
 var lengthOfLongestSubstring = function(s) {
     const len = s.length;
     if (len < 2) { return len; }

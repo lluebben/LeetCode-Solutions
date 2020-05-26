@@ -1,8 +1,3 @@
-/**
- * @param {string} s
- * @param {number} numRows
- * @return {string}
- */
 let convert = function(s, numRows) {
   if (s.length <= numRows || numRows < 2) return s;
   let len = s.length;
