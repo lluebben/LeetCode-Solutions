@@ -1,6 +1,6 @@
 var diagonalSort = function (mat) {
-    let n = matrix.length;
-    let m = matrix[0].length;
+    let n = mat.length;
+    let m = mat[0].length;
 
     for (let i = 0; i < n + m - 1; i++) {
         let row = i < m ? 0 : i - m + 1;
@@ -22,7 +22,7 @@ var diagonalSort = function (mat) {
         let y = col;
 
         while (x < n && y < m) {
-            ans.push(matrix[x][y]);
+            ans.push(mat[x][y]);
             x++;
             y++;
         }
@@ -34,12 +34,12 @@ var diagonalSort = function (mat) {
         ans.sort((a, b) => a - b);
 
         while (x < n && y < m && k < ans.length) {
-            matrix[x][y] = ans[k];
+            mat[x][y] = ans[k];
             k++;
             x++;
             y++;
         }
     }
 
-    return matrix;
+    return mat;
 };
